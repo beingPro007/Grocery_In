@@ -4,19 +4,17 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.onlinegroceryapp.model.Orders;
 import com.example.onlinegroceryapp.model.PlaceOrderModel;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -35,7 +33,6 @@ public class PlaceOrder extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_place_order);
 
         // Initializing views
@@ -46,8 +43,13 @@ public class PlaceOrder extends AppCompatActivity {
 
         // Retrieving current user's email
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        if (currentUser == null) {
+            // If user is not authenticated, redirect to login
+            startActivity(new Intent(this, UserAuthentication.class));
+            finish();
+            return;
+        }
         String currentUserEmail = currentUser.getEmail();
-        Log.d("UserAuthentication", "User email: " + currentUserEmail);
         String[] parts = currentUserEmail.split("@");
         String userId = parts[0];
 
@@ -63,45 +65,51 @@ public class PlaceOrder extends AppCompatActivity {
                 String email = placeorderEmail.getText().toString();
 
                 // Check if any of the fields are empty
-                if (name.isEmpty() || phone.isEmpty() || address.isEmpty() || email.isEmpty()) {
+                if (TextUtils.isEmpty(name) || TextUtils.isEmpty(phone) || TextUtils.isEmpty(address) || TextUtils.isEmpty(email)) {
                     // Show error message if any field is empty
                     Toast.makeText(PlaceOrder.this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
                 } else {
                     // Proceed with placing the order
-                    DatabaseReference Source = FirebaseDatabase.getInstance().getReference("users").child(userId).child("Cart Facility");
-                    DatabaseReference destination = FirebaseDatabase.getInstance().getReference("users").child(userId).child("Checkout Details");
+                    DatabaseReference cartRef = FirebaseDatabase.getInstance().getReference("users").child(userId).child("Cart Facility");
+                    DatabaseReference orderRef = FirebaseDatabase.getInstance().getReference("users").child(userId).child("Checkout Details");
 
-                    Source.addValueEventListener(new ValueEventListener() {
+                    // Retrieve cart data
+                    cartRef.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            Orders orders = snapshot.getValue(Orders.class);
-                            PlaceOrderModel placeOrderModel = new PlaceOrderModel(name, phone, address, email);
-
-                            destination.setValue(placeOrderModel)
-                                    .addOnSuccessListener(new OnSuccessListener<Void>() {
-                                        @Override
-                                        public void onSuccess(Void aVoid) {
-                                            showSuccessDialog();
-                                        }
-                                    })
-                                    .addOnFailureListener(new OnFailureListener() {
-                                        @Override
-                                        public void onFailure(@NonNull Exception e) {
-                                            Toast.makeText(PlaceOrder.this, "Failed to add data", Toast.LENGTH_SHORT).show();
-                                            Log.e("PlaceOrder", "Error adding data to database: " + e.getMessage());
-                                        }
-                                    });
-
+                            // Check if cart is not empty
+                            if (snapshot.exists()) {
+                                PlaceOrderModel placeOrderModel = new PlaceOrderModel(name, phone, address, email);
+                                // Move cart items to checkout details
+                                orderRef.setValue(placeOrderModel)
+                                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                            @Override
+                                            public void onSuccess(Void aVoid) {
+                                                // Show success dialog
+                                                showSuccessDialog();
+                                            }
+                                        })
+                                        .addOnFailureListener(new OnFailureListener() {
+                                            @Override
+                                            public void onFailure(@NonNull Exception e) {
+                                                // Show error message on failure
+                                                Toast.makeText(PlaceOrder.this, "Failed to place order", Toast.LENGTH_SHORT).show();
+                                                Log.e("PlaceOrder", "Error placing order: " + e.getMessage());
+                                            }
+                                        });
+                            } else {
+                                // Show error message if cart is empty
+                                Toast.makeText(PlaceOrder.this, "Your cart is empty", Toast.LENGTH_SHORT).show();
+                            }
                         }
+
                         @Override
                         public void onCancelled(@NonNull DatabaseError error) {
                             Log.e("PlaceOrder", "Cancelled: " + error.getMessage());
                         }
                     });
                 }
-                finish();
             }
-
         });
     }
 
@@ -109,22 +117,17 @@ public class PlaceOrder extends AppCompatActivity {
     private void showSuccessDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View dialogView = getLayoutInflater().inflate(R.layout.custom_dialog, null);
-        TextView textView = dialogView.findViewById(R.id.textView10);
         ImageView imageView = dialogView.findViewById(R.id.dialog_image);
         imageView.setImageResource(R.drawable.checkout);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                // Redirect to main activity
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                finish();
             }
         }).setView(dialogView);
         AlertDialog dialog = builder.create();
         dialog.show();
-    }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        finish();
     }
 }
