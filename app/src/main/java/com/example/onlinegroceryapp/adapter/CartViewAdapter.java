@@ -43,7 +43,7 @@ public class CartViewAdapter extends RecyclerView.Adapter<CartViewAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull CartViewAdapter.ViewHolder holder, int position) {
-        Picasso.get().load(cartViewList.get(position).getImageUrl()).into(holder.cartImage);
+        Picasso.get().load(cartViewList.get(position).getImageUrl()).placeholder(R.drawable.johnny_automatic_broccoli).into(holder.cartImage);
         holder.cartproductname.setText(cartViewList.get(position).getProductName());
         holder.cartproductqty.setText(cartViewList.get(position).getQuantity());
         holder.cartproductprice.setText(cartViewList.get(position).getPrice());

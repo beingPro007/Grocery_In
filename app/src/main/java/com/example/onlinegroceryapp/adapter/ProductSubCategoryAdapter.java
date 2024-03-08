@@ -38,7 +38,7 @@ public class ProductSubCategoryAdapter extends RecyclerView.Adapter<ProductSubCa
 
     @Override
     public void onBindViewHolder(@NonNull ProductSubCategoryAdapter.ViewHolder holder, int position) {
-        Picasso.get().load(subCategoryModelList.get(position).getImageUrl()).into(holder.ProductImage);
+        Picasso.get().load(subCategoryModelList.get(position).getImageUrl()).placeholder(R.drawable.johnny_automatic_broccoli).into(holder.ProductImage);
         holder.ProductName.setText(subCategoryModelList.get(position).getProductName());
         holder.ProductQuantity.setText(subCategoryModelList.get(position).getQuantity());
         holder.ProductPrice.setText(subCategoryModelList.get(position).getPrice());

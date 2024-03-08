@@ -19,6 +19,18 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderCompleted"
+            android:exported="false" />
+        <activity
+            android:name=".adapter.PlaceOrder"
+            android:exported="false" />
+        <activity
+            android:name=".NavHeader"
+            android:exported="false" />
+        <activity
             android:name=".PlaceOrder"
             android:exported="false" />
         <activity

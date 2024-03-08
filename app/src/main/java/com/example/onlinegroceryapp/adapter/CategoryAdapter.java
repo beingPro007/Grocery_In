@@ -1,6 +1,7 @@
 package com.example.onlinegroceryapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.onlinegroceryapp.AllCategory;
 import com.example.onlinegroceryapp.R;
 import com.example.onlinegroceryapp.model.Category;
 
@@ -33,6 +35,12 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Catego
     @Override
     public void onBindViewHolder(@NonNull CategoryViewHolder holder, int position) {
         holder.categoryImage.setImageResource(categoryList.get(position).getImageurl());
+        holder.categoryImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context.startActivity(new Intent(context, AllCategory.class));
+            }
+        });
     }
 
     @Override

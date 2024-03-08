@@ -44,9 +44,7 @@ public class UserAuthentication extends AppCompatActivity {
         loginButton = findViewById(R.id.loginButon);
         registerButtonLogin = findViewById(R.id.registerButonlogin);
 
-        // Check if the user is already logged in
 
-        // Login button click listener
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

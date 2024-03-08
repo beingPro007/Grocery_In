@@ -1,7 +1,7 @@
 package com.example.onlinegroceryapp.model;
 
 public class UserManager {
-    private static String userEmail;
+    public static String userEmail;
     private static String prodName;
 
     String Type;

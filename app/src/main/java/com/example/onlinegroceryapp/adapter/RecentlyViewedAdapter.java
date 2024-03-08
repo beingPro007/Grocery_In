@@ -45,7 +45,7 @@ public class RecentlyViewedAdapter extends RecyclerView.Adapter<RecentlyViewedAd
         holder.price.setText(recentlyViewedList.get(position).getPrice());
         holder.unit.setText(recentlyViewedList.get(position).getUnit());
         Log.d("AdapterDebug", "Item imageUrl: " + recentlyViewedList.get(position).getImageurl());
-        Picasso.get().load(recentlyViewedList.get(position).getImageurl()).into(holder.bg);
+        Picasso.get().load(recentlyViewedList.get(position).getImageurl()).placeholder(R.drawable.johnny_automatic_broccoli).into(holder.bg);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

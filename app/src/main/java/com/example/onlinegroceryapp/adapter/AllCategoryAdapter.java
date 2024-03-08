@@ -35,7 +35,7 @@ public class AllCategoryAdapter extends RecyclerView.Adapter<AllCategoryAdapter.
 
     @Override
     public void onBindViewHolder(@NonNull AllCategoryAdapter.AllCategoryViewHolder holder, int position) {
-        Picasso.get().load(allCategoryModelList.get(position).getImageUrl()).into(holder.allCategoryImage);
+        Picasso.get().load(allCategoryModelList.get(position).getImageUrl()).placeholder(R.drawable.johnny_automatic_broccoli).into(holder.allCategoryImage);
         String Type = allCategoryModelList.get(position).getType();
         holder.allCategoryImage.setOnClickListener(new View.OnClickListener() {
             @Override

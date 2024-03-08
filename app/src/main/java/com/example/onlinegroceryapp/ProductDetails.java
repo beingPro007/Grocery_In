@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,6 +24,7 @@ import com.squareup.picasso.Picasso;
 
 public class ProductDetails extends AppCompatActivity {
     ImageView img;
+    Button buyNow;
     int bigimage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +60,13 @@ public class ProductDetails extends AppCompatActivity {
         prodprice.setText(price);
         proddescription.setText(description);
         ImageView backButtonProductDetails = findViewById(R.id.productDetailsBackButton);
+        buyNow = findViewById(R.id.buyNow);
+        buyNow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), PlaceOrder.class));
+            }
+        });
         backButtonProductDetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
