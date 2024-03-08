@@ -1,0 +1,64 @@
+{
+  "users": {
+    "22amtics494": {
+      "cart": {
+        "Apple": {
+          "imageUrl": "gs://online-grocery-app-22f62.appspot.com/images/Apple.jpg",
+          "price": "₹ 10 / KG",
+          "prodId": "5",
+          "productName": "Apple",
+          "quantity": "50"
+        },
+        "Banana": {
+          "imageUrl": "gs://online-grocery-app-22f62.appspot.com/images/Banana.jpg",
+          "price": "₹ 120 / KG",
+          "prodId": "6",
+          "productName": "Banana",
+          "quantity": "75"
+        },
+        "Grapes": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Grapes",
+          "price": "₹ 250 / KG",
+          "prodId": "9",
+          "productName": "Grapes",
+          "quantity": "110"
+        },
+        "Kiwi": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/kiwi.jpg",
+          "price": "₹ 80 / KG",
+          "prodId": "4",
+          "productName": "Kiwi",
+          "quantity": "100"
+        },
+        "Mango": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Mango.jpg",
+          "price": "₹ 200 / KG",
+          "prodId": "8",
+          "productName": "Mango",
+          "quantity": "60"
+        },
+        "Orange": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Orange.jpg",
+          "price": "₹ 150 / KG",
+          "prodId": "7",
+          "productName": "Orange",
+          "quantity": "90"
+        },
+        "Pineapple": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/PineApple.jpg",
+          "price": "₹ 350 / KG",
+          "prodId": "11",
+          "productName": "Pineapple",
+          "quantity": "80"
+        },
+        "Watermelon": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Watermelon.jpg",
+          "price": "₹ 300 / KG",
+          "prodId": "10",
+          "productName": "Watermelon",
+          "quantity": "40"
+        }
+      }
+    }
+  }
+}

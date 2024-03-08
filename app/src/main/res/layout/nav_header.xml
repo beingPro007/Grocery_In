@@ -1,0 +1,42 @@
+<!-- res/layout/nav_header.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Profile picture -->
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+       />
+
+    <!-- User name -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- User email -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="john.doe@example.com"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

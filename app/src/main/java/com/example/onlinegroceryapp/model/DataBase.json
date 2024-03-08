@@ -1,0 +1,78 @@
+{
+  "users": {
+    "22amtics494": {
+      "cart": {
+        "product1": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b2",
+          "price": "₹ 80 / KG",
+          "prodId": "4",
+          "productName": "Kiwi",
+          "quantity": "100"
+        },
+        "product2": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b3",
+          "price": "₹ 100 / KG",
+          "prodId": "5",
+          "productName": "Apple",
+          "quantity": "50"
+        },
+        "product3": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b4",
+          "price": "₹ 120 / KG",
+          "prodId": "6",
+          "productName": "Banana",
+          "quantity": "75"
+        },
+        "product4": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b5",
+          "price": "₹ 150 / KG",
+          "prodId": "7",
+          "productName": "Orange",
+          "quantity": "90"
+        },
+        "product5": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b6",
+          "price": "₹ 200 / KG",
+          "prodId": "8",
+          "productName": "Mango",
+          "quantity": "60"
+        },
+        "product6": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b7",
+          "price": "₹ 250 / KG",
+          "prodId": "9",
+          "productName": "Grapes",
+          "quantity": "110"
+        },
+        "product7": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b8",
+          "price": "₹ 300 / KG",
+          "prodId": "10",
+          "productName": "Watermelon",
+          "quantity": "40"
+        },
+        "product8": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b9",
+          "price": "₹ 350 / KG",
+          "prodId": "11",
+          "productName": "Pineapple",
+          "quantity": "80"
+        },
+        "product9": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b10",
+          "price": "₹ 400 / KG",
+          "prodId": "12",
+          "productName": "Papaya",
+          "quantity": "70"
+        },
+        "product10": {
+          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/b11",
+          "price": "₹ 450 / KG",
+          "prodId": "13",
+          "productName": "Strawberry",
+          "quantity": "95"
+        }
+      }
+    }
+  }
+}
