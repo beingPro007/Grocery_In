@@ -1,64 +1,536 @@
 {
+  "All Category": {
+    "Products": {
+      "Cookies": {
+        "Product Sub Category": {
+          "Cake": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCake.png?alt=media&token=6bc64625-604a-4973-b8eb-b144b48d4461",
+            "price": "515/kg",
+            "productName": "Cake",
+            "quantity": "1"
+          },
+          "Candy": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCandy.png?alt=media&token=382897a3-7fab-4a48-bd3e-a3dd4afd76490",
+            "price": "20/Pcs",
+            "productName": "Candy",
+            "quantity": "10"
+          },
+          "Chocolate Bars": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FChoclate%20Bars.png?alt=media&token=c59121c6-6257-4f8b-b05b-299ce32ece2a",
+            "price": "50 /Bar",
+            "productName": "Chocolate Bars",
+            "quantity": "5"
+          },
+          "Donuts": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FDonuts.png?alt=media&token=f57a6860-1fa0-4782-bf8a-dc9c659390d4",
+            "price": "50 / Pcs",
+            "productName": "Donuts",
+            "quantity": "10"
+          },
+          "Ice Cream": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FIce%20Cream.png?alt=media&token=8d518deb-e3cd-49c9-b4c1-5c6fa58ba64c",
+            "price": "50 / Serving",
+            "productName": "Ice Cream",
+            "quantity": "1"
+          }
+        },
+        "Type": "Cookies",
+        "imageurl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/All%20Category%2Fic_cookies.JPG?alt=media&token=ca5c3777-bd3a-4f7f-ac5d-5919dc273b3c"
+      },
+      "Fruits": {
+        "Product Sub Category": {
+          "Apple": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FApple.png?alt=media&token=f420b3c7-c05d-4d73-9705-ee8bbad05096",
+            "price": "₹ 10 / KG",
+            "productName": "Apple",
+            "quantity": "1"
+          },
+          "Banana": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FDesigner%20(1).png?alt=media&token=559e482c-9bcb-45b4-bb11-e5b172d9145f",
+            "price": "₹ 120 / KG",
+            "productName": "Banana",
+            "quantity": "1"
+          },
+          "Grapes": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FGrape%20(1).png?alt=media&token=7782ecb1-35e8-4dcc-ba06-cd6e2caf07c5",
+            "price": "₹ 250 / KG",
+            "productName": "Grapes",
+            "quantity": "1"
+          },
+          "Kiwi": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FKiwi.png?alt=media&token=6353d25b-9bc1-4784-ab8b-498abf3fb659",
+            "price": "₹ 80 / Piece",
+            "productName": "Kiwi",
+            "quantity": "1"
+          },
+          "Mango": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FMango.png?alt=media&token=649c205b-08a3-4286-a8ac-2704617b1a9c",
+            "price": "₹ 200 / KG",
+            "productName": "Mango",
+            "quantity": "1"
+          },
+          "Orange": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FOrange.png?alt=media&token=4f9d2bfd-5997-4839-b28f-cb66a39d8ea3",
+            "price": "₹ 150 / KG",
+            "productName": "Orange",
+            "quantity": "1"
+          },
+          "Pineapple": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FPineapple.png?alt=media&token=414d22b3-31d3-4565-afcd-43a9cc2d2677",
+            "price": "₹ 350 / KG",
+            "productName": "Pineapple",
+            "quantity": "1"
+          },
+          "Watermelon": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FWatermelon.png?alt=media&token=7a7499f7-0c77-4c43-b09b-3ae1cdb1bcd6",
+            "price": "₹ 300 / KG",
+            "productName": "Watermelon",
+            "quantity": "1"
+          }
+        },
+        "Type": "Fruits",
+        "imageurl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/All%20Category%2Fic_fruits.JPG?alt=media&token=eb91852d-21eb-4d1f-8212-19077c977ac1"
+      },
+      "Juice": {
+        "Product Sub Category": {
+          "Cherry Juice": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Juice%2FCherry%20Juice_06ZntdoV2C_m5AhFNNC4n_Eqbf4zex4t.jpeg?alt=media&token=d4a0e0cb-00ac-48cb-9f43-767b6ff1a1db",
+            "price": "5 / ml",
+            "productName": "Cherry Juice",
+            "quantity": "1"
+          },
+          "Mango Juice": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Juice%2FMango%20Juice_p0WMWyRV6T_vRpBXXUm3U_lzAgqX057q.jpeg?alt=media&token=98032629-1f6b-4ce8-84b8-dc2345706cb0",
+            "price": "5 / ml",
+            "productName": "Mango Juice",
+            "quantity": "1"
+          },
+          "Orange Juice": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Juice%2FOrange%20Juice_cuxZljDr37_pu5jfVzI5x_RU0M48j80Z.jpeg?alt=media&token=da7f0d50-f60a-4782-995b-a6c70ffea6a3",
+            "price": "5 / ml",
+            "productName": "Orange Juice",
+            "quantity": "1"
+          },
+          "Pineapple Juice": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Juice%2FDesigner_VgakMyGy8d%5B1%5D.jpeg?alt=media&token=8587fffc-1911-4157-8b96-c26a2eab199d",
+            "price": "5 / ml",
+            "productName": "Pineapple Juice",
+            "quantity": "1"
+          }
+        },
+        "Type": "Juice",
+        "imageurl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/All%20Category%2Fic_juce.JPG?alt=media&token=b3290a8a-e458-4299-8c0c-2c8ec06c8861"
+      },
+      "Veggies": {
+        "Product Sub Category": {
+          "Carrot": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FCarrot.png?alt=media&token=4be5ba7d-5915-41a1-b372-d8e17fdd87af",
+            "price": "₹ 120 / KG",
+            "productName": "Carrot",
+            "quantity": "1"
+          },
+          "Onion": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FOnion.png?alt=media&token=ab3fa7f3-829d-47e7-968d-84f76c0d429b",
+            "price": "₹ 10 / KG",
+            "productName": "Onion",
+            "quantity": "1"
+          },
+          "Potato": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FPotato.png?alt=media&token=fe8edece-373d-4a6a-b34b-1a75abb92468",
+            "price": "₹ 10 / KG",
+            "productName": "Potato",
+            "quantity": "1"
+          },
+          "Tomato": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FTomato.png?alt=media&token=501b5cb1-7cb9-48a5-949f-1dbe2a3f0f93",
+            "price": "₹ 250 / KG",
+            "productName": "Tomato",
+            "quantity": "1"
+          }
+        },
+        "Type": "Veggies",
+        "imageurl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/All%20Category%2Fic_veggies.JPG?alt=media&token=053e3c1c-98a0-4cda-b4d0-f700d6998b1b"
+      }
+    }
+  },
+  "Fruits": {
+    "Apple": {
+      "Description": "Crunchy, sweet fruit available in red, green, and yellow. Rich in fiber and vitamin C. Eaten raw or used in cooking.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FApple.png?alt=media&token=f420b3c7-c05d-4d73-9705-ee8bbad05096",
+      "price": "₹ 10 / KG",
+      "prodId": "5",
+      "productName": "Apple",
+      "quantity": "1"
+    },
+    "Banana": {
+      "Description": "Soft, creamy fruit with yellow or green peel. High in potassium. Eaten raw or added to smoothies and baking.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FDesigner%20(1).png?alt=media&token=559e482c-9bcb-45b4-bb11-e5b172d9145f",
+      "price": "₹ 120 / KG",
+      "prodId": "6",
+      "productName": "Banana",
+      "quantity": "1"
+    },
+    "Grapes": {
+      "Description": "Small, juicy fruit in green, red, or purple colors. Rich in antioxidants and vitamins. Eaten fresh or used in wine and juice.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FGrape%20(1).png?alt=media&token=7782ecb1-35e8-4dcc-ba06-cd6e2caf07c5",
+      "price": "₹ 250 / KG",
+      "prodId": "9",
+      "productName": "Grapes",
+      "quantity": "1"
+    },
+    "Kiwi": {
+      "Description": " Kiwi: Small, brown, fuzzy fruit. Sweet-tangy flavor. High in vitamin C and fiber. Commonly eaten fresh.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FKiwi.png?alt=media&token=6353d25b-9bc1-4784-ab8b-498abf3fb659",
+      "price": "₹ 80 / Piece",
+      "prodId": "4",
+      "productName": "Kiwi",
+      "quantity": "1"
+    },
+    "Mango": {
+      "Description": "Juicy, golden-yellow fruit with fragrant flesh. High in vitamins A and C. Eaten fresh or used in smoothies and salads.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FMango.png?alt=media&token=649c205b-08a3-4286-a8ac-2704617b1a9c",
+      "price": "₹ 200 / KG",
+      "prodId": "8",
+      "productName": "Mango",
+      "quantity": "1"
+    },
+    "Orange": {
+      "Description": "Tangy citrus fruit with juicy flesh. Excellent source of vitamin C. Eaten fresh or juiced.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FOrange.png?alt=media&token=4f9d2bfd-5997-4839-b28f-cb66a39d8ea3",
+      "price": "₹ 150 / KG",
+      "prodId": "7",
+      "productName": "Orange",
+      "quantity": "1"
+    },
+    "Pineapple": {
+      "Description": "Tropical fruit with tough exterior and sweet flesh. High in vitamin C and bromelain. Eaten fresh or grilled.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FPineapple.png?alt=media&token=414d22b3-31d3-4565-afcd-43a9cc2d2677",
+      "price": "₹ 350 / KG",
+      "prodId": "11",
+      "productName": "Pineapple",
+      "quantity": "1"
+    },
+    "Watermelon": {
+      "Description": "Large, juicy fruit with pink or red flesh. Hydrating and refreshing. Eaten fresh or juiced.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FWatermelon.png?alt=media&token=7a7499f7-0c77-4c43-b09b-3ae1cdb1bcd6",
+      "price": "₹ 300 / KG",
+      "prodId": "10",
+      "productName": "Watermelon",
+      "quantity": "1"
+    }
+  },
+  "message": "Hello, World!",
   "users": {
     "22amtics494": {
-      "cart": {
-        "Apple": {
-          "imageUrl": "gs://online-grocery-app-22f62.appspot.com/images/Apple.jpg",
-          "price": "₹ 10 / KG",
-          "prodId": "5",
-          "productName": "Apple",
-          "quantity": "50"
+      "Cart Facility": {
+        "Candy": {
+          "Totals": 240,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCandy.png?alt=media&token=382897a3-7fab-4a48-bd3e-a3dd4afd76490",
+          "price": "20/Pcs",
+          "productName": "Candy",
+          "quantity": "12"
         },
-        "Banana": {
-          "imageUrl": "gs://online-grocery-app-22f62.appspot.com/images/Banana.jpg",
+        "Carrot": {
+          "Totals": 120,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FCarrot.png?alt=media&token=4be5ba7d-5915-41a1-b372-d8e17fdd87af",
           "price": "₹ 120 / KG",
-          "prodId": "6",
-          "productName": "Banana",
-          "quantity": "75"
+          "productName": "Carrot",
+          "quantity": "1"
+        },
+        "Donuts": {
+          "Totals": 500,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FDonuts.png?alt=media&token=f57a6860-1fa0-4782-bf8a-dc9c659390d4",
+          "price": "50 / Pcs",
+          "productName": "Donuts",
+          "quantity": "10"
         },
         "Grapes": {
-          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Grapes",
+          "Totals": 250,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FGrape%20(1).png?alt=media&token=7782ecb1-35e8-4dcc-ba06-cd6e2caf07c5",
           "price": "₹ 250 / KG",
           "prodId": "9",
           "productName": "Grapes",
-          "quantity": "110"
+          "quantity": "1"
+        },
+        "Ice Cream": {
+          "Totals": 50,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FIce%20Cream.png?alt=media&token=8d518deb-e3cd-49c9-b4c1-5c6fa58ba64c",
+          "price": "50 / Serving",
+          "productName": "Ice Cream",
+          "quantity": "1"
         },
         "Kiwi": {
-          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/kiwi.jpg",
-          "price": "₹ 80 / KG",
+          "Totals": 80,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FKiwi.png?alt=media&token=6353d25b-9bc1-4784-ab8b-498abf3fb659",
+          "price": "₹ 80 / Piece",
           "prodId": "4",
           "productName": "Kiwi",
-          "quantity": "100"
-        },
-        "Mango": {
-          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Mango.jpg",
-          "price": "₹ 200 / KG",
-          "prodId": "8",
-          "productName": "Mango",
-          "quantity": "60"
+          "quantity": "1"
         },
         "Orange": {
-          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Orange.jpg",
+          "Totals": 150,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FOrange.png?alt=media&token=4f9d2bfd-5997-4839-b28f-cb66a39d8ea3",
           "price": "₹ 150 / KG",
           "prodId": "7",
           "productName": "Orange",
-          "quantity": "90"
+          "quantity": "1"
         },
         "Pineapple": {
-          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/PineApple.jpg",
+          "Totals": 350,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FPineapple.png?alt=media&token=414d22b3-31d3-4565-afcd-43a9cc2d2677",
           "price": "₹ 350 / KG",
           "prodId": "11",
           "productName": "Pineapple",
-          "quantity": "80"
+          "quantity": "1"
         },
-        "Watermelon": {
-          "imageUrl": "android.resource://com.example.onlinegroceryapp/drawable/Watermelon.jpg",
-          "price": "₹ 300 / KG",
-          "prodId": "10",
-          "productName": "Watermelon",
-          "quantity": "40"
+        "Pineapple Juice": {
+          "Totals": 5
+        },
+        "Tomato": {
+          "Totals": 250,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FTomato.png?alt=media&token=501b5cb1-7cb9-48a5-949f-1dbe2a3f0f93",
+          "price": "₹ 250 / KG",
+          "productName": "Tomato",
+          "quantity": "1"
         }
-      }
+      },
+      "Checkout Details": {
+        "address": "ncbbfb",
+        "email": "ranagautam058@gmail.com",
+        "name": "gaut",
+        "phone": "959599"
+      },
+      "Grand Total": "1620"
+    },
+    "a": {
+      "Cart Facility": {
+        "Kiwi": {
+          "Totals": 400,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FKiwi.png?alt=media&token=6353d25b-9bc1-4784-ab8b-498abf3fb659",
+          "price": "₹ 80 / Piece",
+          "prodId": "4",
+          "productName": "Kiwi",
+          "quantity": "5"
+        }
+      },
+      "Grand Total": "400"
+    },
+    "ac": {
+      "Cart Facility": {
+        "Banana": {
+          "Totals": 240,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FDesigner%20(1).png?alt=media&token=559e482c-9bcb-45b4-bb11-e5b172d9145f",
+          "price": "₹ 120 / KG",
+          "prodId": "6",
+          "productName": "Banana",
+          "quantity": "2"
+        }
+      },
+      "Grand Total": "240"
+    },
+    "brs12": {
+      "Cart Facility": {
+        "Banana": {
+          "Totals": 240,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FDesigner%20(1).png?alt=media&token=559e482c-9bcb-45b4-bb11-e5b172d9145f",
+          "price": "₹ 120 / KG",
+          "prodId": "6",
+          "productName": "Banana",
+          "quantity": "2"
+        },
+        "Cake": {
+          "Totals": 1545,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCake.png?alt=media&token=6bc64625-604a-4973-b8eb-b144b48d4461",
+          "price": "515/kg",
+          "productName": "Cake",
+          "quantity": "3"
+        },
+        "Kiwi": {
+          "Totals": 80,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FKiwi.png?alt=media&token=6353d25b-9bc1-4784-ab8b-498abf3fb659",
+          "price": "₹ 80 / Piece",
+          "productName": "Kiwi",
+          "quantity": "1"
+        },
+        "Mango": {
+          "Totals": 400,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FMango.png?alt=media&token=649c205b-08a3-4286-a8ac-2704617b1a9c",
+          "price": "₹ 200 / KG",
+          "prodId": "8",
+          "productName": "Mango",
+          "quantity": "2"
+        }
+      },
+      "Grand Total": "2265"
+    },
+    "e": {
+      "Cart Facility": {
+        "Mango": {
+          "Totals": 200,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FMango.png?alt=media&token=649c205b-08a3-4286-a8ac-2704617b1a9c",
+          "price": "₹ 200 / KG",
+          "prodId": "8",
+          "productName": "Mango",
+          "quantity": "1"
+        }
+      },
+      "Grand Total": "1100"
+    },
+    "gautamelon": {
+      "Cart Facility": {
+        "Apple": {
+          "Totals": 10,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FApple.png?alt=media&token=f420b3c7-c05d-4d73-9705-ee8bbad05096",
+          "price": "₹ 10 / KG",
+          "prodId": "5",
+          "productName": "Apple",
+          "quantity": "1"
+        },
+        "Banana": {
+          "Totals": 360,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FDesigner%20(1).png?alt=media&token=559e482c-9bcb-45b4-bb11-e5b172d9145f",
+          "price": "₹ 120 / KG",
+          "prodId": "6",
+          "productName": "Banana",
+          "quantity": "3"
+        },
+        "Cake": {
+          "Totals": 1030,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCake.png?alt=media&token=6bc64625-604a-4973-b8eb-b144b48d4461",
+          "price": "515/kg",
+          "productName": "Cake",
+          "quantity": "2"
+        },
+        "Carrot": {
+          "Totals": 960,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FCarrot.png?alt=media&token=4be5ba7d-5915-41a1-b372-d8e17fdd87af",
+          "price": "₹ 120 / KG",
+          "productName": "Carrot",
+          "quantity": "8"
+        },
+        "Cherry Juice": {
+          "Totals": 35,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Juice%2FCherry%20Juice_06ZntdoV2C_m5AhFNNC4n_Eqbf4zex4t.jpeg?alt=media&token=d4a0e0cb-00ac-48cb-9f43-767b6ff1a1db",
+          "price": "5 / ml",
+          "productName": "Cherry Juice",
+          "quantity": "7"
+        },
+        "Grapes": {
+          "Totals": 1250,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FGrape%20(1).png?alt=media&token=7782ecb1-35e8-4dcc-ba06-cd6e2caf07c5",
+          "price": "₹ 250 / KG",
+          "prodId": "9",
+          "productName": "Grapes",
+          "quantity": "5"
+        }
+      },
+      "Checkout Details": {
+        "Orders": {
+          "Apple": {
+            "Total": "0",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FApple.png?alt=media&token=f420b3c7-c05d-4d73-9705-ee8bbad05096",
+            "price": "₹ 10 / KG",
+            "prodId": "5",
+            "productName": "Apple",
+            "quantity": "1"
+          },
+          "Banana": {
+            "Total": "0",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FDesigner%20(1).png?alt=media&token=559e482c-9bcb-45b4-bb11-e5b172d9145f",
+            "price": "₹ 120 / KG",
+            "prodId": "6",
+            "productName": "Banana",
+            "quantity": "3"
+          },
+          "Cake": {
+            "Total": "0",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCake.png?alt=media&token=6bc64625-604a-4973-b8eb-b144b48d4461",
+            "price": "515/kg",
+            "productName": "Cake",
+            "quantity": "2"
+          },
+          "Carrot": {
+            "Total": "0",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Veggies%2FCarrot.png?alt=media&token=4be5ba7d-5915-41a1-b372-d8e17fdd87af",
+            "price": "₹ 120 / KG",
+            "productName": "Carrot",
+            "quantity": "8"
+          },
+          "Cherry Juice": {
+            "Total": "0",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Juice%2FCherry%20Juice_06ZntdoV2C_m5AhFNNC4n_Eqbf4zex4t.jpeg?alt=media&token=d4a0e0cb-00ac-48cb-9f43-767b6ff1a1db",
+            "price": "5 / ml",
+            "productName": "Cherry Juice",
+            "quantity": "7"
+          },
+          "Grapes": {
+            "Total": "0",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FGrape%20(1).png?alt=media&token=7782ecb1-35e8-4dcc-ba06-cd6e2caf07c5",
+            "price": "₹ 250 / KG",
+            "prodId": "9",
+            "productName": "Grapes",
+            "quantity": "5"
+          }
+        },
+        "address": "d",
+        "email": "d",
+        "name": "r",
+        "phone": "5"
+      },
+      "Grand Total": "3645"
+    },
+    "raj": {
+      "Cart Facility": {
+        "Apple": {
+          "Totals": 20,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FApple.png?alt=media&token=f420b3c7-c05d-4d73-9705-ee8bbad05096",
+          "price": "₹ 10 / KG",
+          "productName": "Apple",
+          "quantity": "2"
+        },
+        "Cake": {
+          "Totals": 1545,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/Cookies%2FCake.png?alt=media&token=6bc64625-604a-4973-b8eb-b144b48d4461",
+          "price": "515/kg",
+          "productName": "Cake",
+          "quantity": "3"
+        }
+      },
+      "Checkout Details": {
+        "address": "s",
+        "email": "ksujatarao303@gmail.com",
+        "name": "m",
+        "phone": "6"
+      },
+      "Grand Total": "1565"
+    },
+    "ram": {
+      "Cart Facility": {
+        "Mango": {
+          "Totals": 200,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FMango.png?alt=media&token=649c205b-08a3-4286-a8ac-2704617b1a9c",
+          "price": "₹ 200 / KG",
+          "prodId": "8",
+          "productName": "Mango",
+          "quantity": "1"
+        }
+      },
+      "Checkout Details": {
+        "Orders": {
+          "Mango": {
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/online-grocery-app-22f62.appspot.com/o/images%2FMango.png?alt=media&token=649c205b-08a3-4286-a8ac-2704617b1a9c",
+            "price": "₹ 200 / KG",
+            "prodId": "8",
+            "productName": "Mango",
+            "quantity": "1"
+          }
+        },
+        "address": "surat",
+        "email": "susu@gmail.com",
+        "name": "sneha",
+        "phone": "9632581475"
+      },
+      "Grand Total": "200"
     }
   }
 }
