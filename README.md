@@ -1,6 +1,6 @@
 # Grocery App README
 
-Welcome to our Grocery App! This app is designed to streamline your grocery shopping experience by providing convenient options for purchasing items and managing your shopping cart. Built with Firebase integration, our app ensures that your data is securely backed up and accessible across devices.
+Welcome to our Grocery App! This Android application is designed to streamline your grocery shopping experience by providing convenient options for purchasing items and managing your shopping cart. Built with Firebase integration, our app ensures that your data is securely backed up and accessible across devices.
 
 ## Features:
 
@@ -27,19 +27,19 @@ Welcome to our Grocery App! This app is designed to streamline your grocery shop
 ## Installation:
 
 1. Clone the repository to your local machine.
-2. Ensure you have the latest version of Node.js and npm installed.
-3. Run `npm install` to install dependencies.
+2. Open the project in Android Studio.
+3. Ensure you have the necessary SDK and build tools installed.
 4. Set up Firebase for database and authentication services.
 5. Configure Firebase credentials in the app.
-6. Run the app on your preferred platform using `npm start` or your chosen development environment.
+6. Build and run the app on your preferred Android device or emulator.
 
 ## Usage:
 
 1. Launch the app and register or log in to access your account.
 2. Browse through the available products or use the search feature to find specific items.
-3. Add desired items to your shopping cart by clicking the "Add to Cart" button.
+3. Add desired items to your shopping cart by tapping the "Add to Cart" button.
 4. Review your cart to adjust quantities or remove items as needed.
-5. Proceed to checkout by clicking the "Buy Now" button and follow the prompts for payment.
+5. Proceed to checkout by tapping the "Buy Now" button and follow the prompts for payment.
 6. Enjoy a seamless grocery shopping experience!
 
 ## Contributing:
@@ -54,7 +54,7 @@ We welcome contributions from the community to enhance the functionality and use
 
 ## Feedback:
 
-We value your feedback and suggestions for improving our Grocery App. If you encounter any issues, have ideas for new features, or simply want to share your experience, please don't hesitate to reach out to us via email :- gautamelon@gmail.com
+We value your feedback and suggestions for improving our Grocery App. If you encounter any issues, have ideas for new features, or simply want to share your experience, please don't hesitate to reach out to us via [email/support page/link].
 
 ## License:
 
