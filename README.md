@@ -1,5 +1,3 @@
-Certainly! Here's the updated README including user registration and login:
-
 # Grocery App README
 
 Welcome to our Grocery App! This app is designed to streamline your grocery shopping experience by providing convenient options for purchasing items and managing your shopping cart. Built with Firebase integration, our app ensures that your data is securely backed up and accessible across devices.
