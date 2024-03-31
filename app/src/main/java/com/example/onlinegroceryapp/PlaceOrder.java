@@ -123,7 +123,7 @@ public class PlaceOrder extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Redirect to main activity
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(PlaceOrder.this, CheckoutActivity.class));
                 finish();
             }
         }).setView(dialogView);

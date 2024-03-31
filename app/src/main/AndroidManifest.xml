@@ -19,6 +19,22 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".addingProduct"
+            android:exported="false" />
+        <activity
+            android:name=".adminAddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_login" />
+        <activity
+            android:name=".AdminPanel"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".OrdersActivity"
             android:exported="false" />
         <activity
@@ -78,6 +94,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
     </application>
 
 </manifest>

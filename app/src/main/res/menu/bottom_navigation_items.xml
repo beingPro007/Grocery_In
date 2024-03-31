@@ -16,4 +16,8 @@
         android:id="@+id/orders"
         android:title="Orders"
         android:icon="@drawable/ic_cart_black" />
+    <item
+        android:id="@+id/admin"
+        android:title="Admin"
+        android:icon="@drawable/ic_cart_black" />
 </menu>

@@ -91,7 +91,7 @@ public class CartViewAdapter extends RecyclerView.Adapter<CartViewAdapter.ViewHo
                 int quan = Integer.parseInt(cartViewList.get(position).getQuantity());
                 quan++;
                 holder.cartproductqty.setText(String.valueOf(quan));
-                    databaseReference.child("quantity").setValue(String.valueOf(quan));
+                databaseReference.child("quantity").setValue(String.valueOf(quan));
             }
         });
         holder.minus.setOnClickListener(new View.OnClickListener() {

@@ -185,6 +185,9 @@
             } else if (id == R.id.orders) {
                 startActivity(new Intent(getApplicationContext(),OrdersActivity.class));
             }
+            else if (id == R.id.admin){
+                startActivity(new Intent(getApplicationContext(), AdminLoginActivity.class));
+            }
             drawerLayout.closeDrawers();
             return true;
         }

@@ -50,6 +50,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.activity:activity:1.8.0")
+    implementation("com.google.firebase:firebase-firestore:24.11.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -59,4 +60,5 @@ dependencies {
     implementation("com.google.firebase:firebase-storage")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.squareup.picasso:picasso:2.8")
+    implementation("com.google.android.gms:play-services-wallet:19.3.0")
 }
