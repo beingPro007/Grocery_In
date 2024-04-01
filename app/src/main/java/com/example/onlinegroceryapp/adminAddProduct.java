@@ -25,9 +25,6 @@ public class adminAddProduct extends AppCompatActivity {
         });
         String data = getIntent().getStringExtra("key");
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-        databaseReference.
-        if(data == "Fruits"){
 
-        }
     }
 }
